@@ -16,7 +16,7 @@ public class LocationService implements ILocationService {
 
 	@Override
 	public LocationEntity saveLocation(LocationEntity location) {
-		// TODO Auto-generated method stub
+		
 		return repo.save(location);
 	}
 
